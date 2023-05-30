@@ -51,4 +51,5 @@ def main():
     push_button = Button(frame, text="git push mycode HEAD", command=push)
     push_button.grid(row=1, column=1, padx=5, pady=5)
     exit_button = Button(frame, text="Exit", command=escape)
+    exit_button.grid(row=2, column=0, padx=5, pady=5)
     window.mainloop()
